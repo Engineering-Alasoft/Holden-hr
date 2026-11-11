@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+
+  body {
+    background: #f7fafe;
+    color: #172b46;
+  }
+
+  ::selection {
+    background: #d7e8f8;
+    color: #172b46;
+  }
+
+  :where(a, button, input, select, textarea):focus-visible {
+    outline: 2px solid #3986d7;
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
