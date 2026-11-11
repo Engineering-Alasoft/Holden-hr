@@ -59,9 +59,9 @@ export default async function CandidatePage({ params }) {
             <p className="mt-2 text-muted">
               {person.city}, {person.country}
             </p>
-            <p className="mt-6 border border-line bg-primary px-4 py-3 text-sm leading-relaxed text-ink">
+            {/* <p className="mt-6 border border-line bg-primary px-4 py-3 text-sm leading-relaxed text-ink">
               This is a fictional profile for the prototype. The CV download is generated in your browser from these sample details.
-            </p>
+            </p> */}
             <dl className="mt-8 grid grid-cols-2 gap-px border border-line bg-line sm:grid-cols-3">
               {facts.map(([label, value]) => (
                 <div key={label} className="bg-white p-4">
