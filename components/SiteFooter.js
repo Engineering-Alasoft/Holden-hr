@@ -96,13 +96,12 @@ export default function SiteFooter() {
             </li>
             <li>
               <a href="tel:+442079460991" className="hover:text-white">
-                +44 20 7946 0991
+                +44 20 0000 0000
               </a>
             </li>
             <li>18 Clerkenwell Green, London EC1R 0DP</li>
           </ul>
-          <p className="mt-3 text-xs text-[#D5DEE8]">Placeholder contact details. They are not monitored.</p>
-        </div>
+                  </div>
         <div className="flex flex-wrap items-end gap-x-5 gap-y-2 md:justify-end">
           <Link href="/privacy" className="text-sm text-[#D5DEE8] hover:text-white">
             Privacy Policy

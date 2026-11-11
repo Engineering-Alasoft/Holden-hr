@@ -26,7 +26,7 @@ export default function ContactPage() {
             </p>
             <p className="mt-1">
               <a className="font-medium text-action" href="tel:+442079460991">
-                +44 20 7946 0991
+                +44 20 0000 0000
               </a>
             </p>
           </div>
