@@ -29,9 +29,9 @@ export default function Hero() {
               Create Your Profile
             </Link>
           </div>
-          <p className="mt-5 max-w-md text-sm leading-relaxed text-muted">
+          {/* <p className="mt-5 max-w-md text-sm leading-relaxed text-muted">
             The profiles in this demonstration are fictional, so you can try the directory without real personal data.
-          </p>
+          </p> */}
         </div>
         <div className="lg:col-span-5" aria-hidden="true">
           <div className="relative pt-7">
